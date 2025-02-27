@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-st.title("Guess the Number Game")
+st.title("Guess the Number Game (Computer)")
 
 if 'number_to_guess' not in st.session_state:
     st.session_state.number_to_guess = random.randint(1, 100)
